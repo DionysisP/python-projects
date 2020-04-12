@@ -9,7 +9,7 @@ run = True
 while run:
 
     print("Coins : ", coins)
-    inpt = input("\nGive 20 coins to play? y/n\n")
+    inpt = input("\nGive {} coins to play? y/n\n".format(bet))
     
     if inpt == "y":
 
